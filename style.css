@@ -1,0 +1,75 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    line-height: calc(1em + 0.5rem);  
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    background-color: #ccc;
+    font-family: "Delius", serif;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+main {
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    background-color: #262626 ;
+    height: 50vh;
+    margin-top: 10rem;
+    border-bottom: 8px solid #fff;
+}
+
+header {
+    background-color: #D90479;
+    width: 360px;
+    padding: 0.6rem 1.3rem;
+    position: absolute;
+    z-index: 1;
+    left: 16rem;
+    border-radius: 8px;
+    top: 13.5rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;}
+
+header h1 {
+    text-align: center;
+    padding: 1rem 0;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+section {
+    background-color: #fff;
+    width: 430px;
+    padding: 2rem 1.5rem;
+    position: relative;
+    border-radius: 8px;
+    margin-top: 4.5rem;
+    margin-left: 2.5rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+section p {
+    padding: 1rem 1.5rem;
+    width: 360px;
+    font-weight: 900;
+    margin-top: 3rem;
+}
+/* #D90479 pink 
+#262626 gray black
+#0D0D0D black
+*/
