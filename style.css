@@ -40,7 +40,7 @@ header {
     padding: 0.6rem 1.3rem;
     position: absolute;
     z-index: 1;
-    left: 16rem;
+    left: 31.5rem;
     border-radius: 8px;
     top: 13.5rem;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;}
@@ -73,3 +73,12 @@ section p {
 #262626 gray black
 #0D0D0D black
 */
+
+@media screen and (max-width: 768px) {
+  
+    header {
+        left: 9.5rem;
+        top: 12.7rem; 
+    }
+   
+}
